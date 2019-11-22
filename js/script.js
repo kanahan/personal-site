@@ -29,7 +29,7 @@ function getCookie(cname) {
     // set to display daytime
     d.querySelector('body').className = 'day';
     d.querySelector('.insta-link').style.display = 'none';
-    d.querySelector('#title').innerHTML = 'Developer';
+    d.querySelector('#title').innerHTML = 'Devel<div class="div_bounce">o</div>per';
   };
 
   console.log(`

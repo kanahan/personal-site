@@ -82,13 +82,32 @@ a {
   border-radius: 0;
 }
 
-.dev-link {
-  margin-left: -10px;
-}
-
 .dev-link:hover {
   color: white;
   background: black;
   box-shadow: 10px 10px 15px rgba(0,0,0,.1);
   z-index: 1;
+  animation: bounce;
+}
+
+.div_bounce {
+  display: inline-block;
+}
+
+.dev-link:hover > .div_bounce {
+  animation-name: bounce;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 0.7s;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  40%,
+  60% {
+    transform: translateY(-8px);
+  }
 }
