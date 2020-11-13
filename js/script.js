@@ -29,8 +29,7 @@ function getCookie(cname) {
     // set to display daytime
     d.querySelector('body').className = 'day';
     d.querySelector('.insta-link').style.display = 'none';
-    d.querySelector('#title').innerHTML =
-      'Devel<div class="div_bounce">o</div>per';
+    d.querySelector('#title').innerHTML = 'D<div class="div_bounce">e</div>v';
   }
 
   console.log(`
@@ -39,7 +38,7 @@ function getCookie(cname) {
    / __________\\
   | ___________ |
   | | -       | |  looking for front-end developer?
-  | |         | |  https://dev.karson.tk
+  | |         | |  https://dev.krsn.xyz
   | |_________| |________________________
   \\=____________/                        )
   / """"""""""" \\                       /

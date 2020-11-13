@@ -6,7 +6,7 @@ particlesJS('particles', {
       value: 57,
       density: {
         enable: true,
-        value_area: 789.1476416322727,
+        value_area: 600,
       },
     },
     color: {
@@ -56,7 +56,7 @@ particlesJS('particles', {
     },
     move: {
       enable: true,
-      speed: 3,
+      speed: 2,
       direction: 'none',
       random: false,
       straight: false,
@@ -74,17 +74,17 @@ particlesJS('particles', {
     events: {
       onhover: {
         enable: true,
-        mode: 'repulse',
+        mode: 'grab',
       },
       onclick: {
         enable: true,
-        mode: 'push',
+        mode: 'repulse',
       },
       resize: true,
     },
     modes: {
       grab: {
-        distance: 400,
+        distance: 180,
         line_linked: {
           opacity: 1,
         },
