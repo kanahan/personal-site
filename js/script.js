@@ -28,8 +28,6 @@ function getCookie(cname) {
     setCookie('night', 'true', 1);
     // set to display daytime
     d.querySelector('body').className = 'day';
-    d.querySelector('.insta-link').style.display = 'none';
-    d.querySelector('#title').innerHTML = 'D<div class="div_bounce">e</div>v';
   }
 
   console.log(`
